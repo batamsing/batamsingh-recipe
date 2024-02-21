@@ -30,7 +30,7 @@ export default function Footer() {
                     <h4 className=' font-semibold text-xl'>BatamSingh</h4>
                 </div>
                 <div className='text-base col-span-2'>
-                    <p>I am a software developer with experience in developing web applications using JavaScript, Node</p>
+                    <p>I am a beginner software developer with skills in developing web applications using JavaScript, Node</p>
                     <p>I have a strong background in HTML, CSS, JavaScript, SQL</p>
                     <p>This is a simple project to demonstrate how you can use React with Tailwind CSS and custom components.</p>
                     <p>© 2021 - Present | Developed by Batam Singh<br/>

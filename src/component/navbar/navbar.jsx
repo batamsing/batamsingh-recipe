@@ -1,20 +1,28 @@
 import React, { useContext, useState } from 'react';
-import Hamburger from 'hamburger-react';
 import { NavLink } from 'react-router-dom';
 import searchLogo from './search_icon.png';
-import favorite_logo from '../../component/image/favorite.svg';
-import Favorite from '../../pages/favorites';
+import hamburger from '../image/hamburger.png';
+import close from '../image/close.png';
 import { GlobalContext } from '../../context/GlobalContext';
 
 
 function Navbar() {
   const [show, setShow] = useState(false);
   const { searchParam, setSearchParam, handleSubmit } = useContext(GlobalContext);
-
+  
+  function handleHamClick() {
+    setShow(!show);
+  }
 
   return <div className='flex flex-row justify-between px-4 bg-red-500 text-white shadow-md py-4'>
     <div className='lg:hidden'>
-      <Hamburger onToggle={toggled => setShow(!show)} />
+      <div  className='inline-block cursor-pointer size-10' onClick={handleHamClick}>
+        {
+          show ?
+          <img className='' src={close} /> :
+          <img src={hamburger} />
+        }
+      </div>
       {
         show && (
           <ul className='flex flex-col gap-4 px-5 text-2xl py-2'>

@@ -8,6 +8,7 @@ import SearchRecipe from "./pages/search";
 import Header from "./component/header";
 import Footer from "./component/footer";
 import Meals, { DefaultMeals } from "./pages/meals";
+import ContactUs from "./pages/contact";
 
 
 
@@ -28,7 +29,7 @@ function App() {
         <Route
           path="/search"
           element={<SearchRecipe />}
-        
+
         />
         <Route
           path="/meals/:id"
@@ -45,6 +46,10 @@ function App() {
         <Route
           path="/recipe-item/:id"
           element={<Details />}
+        />
+        <Route
+          path="/contact"
+          element={<ContactUs />}
         />
       </Routes>
     </div>
