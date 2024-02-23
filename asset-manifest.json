@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/batamsingh-recipe/static/css/main.07149ba2.css",
+    "main.js": "/batamsingh-recipe/static/js/main.5806e5a9.js",
+    "static/media/20230821_030037.jpg": "/batamsingh-recipe/static/media/20230821_030037.7b7d7fa34ca3a941f400.jpg",
+    "static/media/search_icon.png": "/batamsingh-recipe/static/media/search_icon.a1b3554708fcc167c6cd.png",
+    "index.html": "/batamsingh-recipe/index.html",
+    "main.07149ba2.css.map": "/batamsingh-recipe/static/css/main.07149ba2.css.map",
+    "main.5806e5a9.js.map": "/batamsingh-recipe/static/js/main.5806e5a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07149ba2.css",
+    "static/js/main.5806e5a9.js"
+  ]
+}
