@@ -34,7 +34,7 @@ export default function Footer() {
                     <p>I have a strong background in HTML, CSS, JavaScript, SQL</p>
                     <p>This is a simple project to demonstrate how you can use React with Tailwind CSS and custom components.</p>
                     <p>© 2021 - Present | Developed by Batam Singh<br/>
-                    This website is built using react and hosted on Netlify.<br/>
+                    This website is built using react and hosted on GitHub.<br/>
                     Source code available at GitHub.</p>
             
                 </div>
